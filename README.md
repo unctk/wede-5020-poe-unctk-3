@@ -1,5 +1,5 @@
 # Project Title
-New Leaders Foundation
+**New Leaders Foundation**
 
 ## Student Information
 **Student number:** ST10511101 <br>
