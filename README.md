@@ -37,33 +37,19 @@ Pull this from your project proposal.
 
 ![Website Sitemap](img/mysitemap.png) <br> (The one here is only an example, include your own site map)
 ```
-Homepage (index.html)
-├── About Us (about.html)
-├── Programmes (services.html)
-├── Enquiry (enquiry.html)
-└── Contact (contact.html)
+
 
 ## References
 
-New Leaders Foundation. (2025). *Home*. Retrieved from http://www.newleaders.co.za/
-
-New Leaders Foundation. (2025). *About Us*. Retrieved from http://www.newleaders.co.za/about-us/
-
-New Leaders Foundation. (2025). *Data Driven Districts*. Retrieved from https://www.newleaders.co.za/data-driven-districts/
-
-New Leaders Foundation. (2025). *Shaping New Leaders*. Retrieved from https://www.newleaders.co.za/shaping-new-leaders/
-
-New Leaders Foundation. (2025). *Work With Us*. Retrieved from http://www.newleaders.co.za/work-with-us/
-
-New Leaders Foundation. (2025). *Partnering to achieve equitable quality education*. Retrieved from https://www.newleaders.co.za/partnering-to-achieve-equitable-quality-education/
-
-New Leaders Foundation. (2023). *PAIA Manual — Promotion of Access to Information*. Retrieved from https://www.newleaders.co.za/wp-content/uploads/2023/01/PAIA-Manual-_-Final.pdf
-
-New Leaders Foundation. (2019). *Old Mutual Education Flagship Project and the DDD Dashboard: A Case Study*. Retrieved from https://www.newleaders.co.za/wp-content/uploads/2020/10/DDD-OMEFP-partnership-case-study-March-2019.pdf
-
-Trialogue Knowledge Hub. (2024). *New Leaders Foundation — NPO Directory*. Retrieved from https://trialogueknowledgehub.co.za/npo-directory-listings/
-
-W3C. (2024). *HTML Living Standard*. Retrieved from https://html.spec.whatwg.org
-
-Mozilla Developer Network. (2024). *HTML: HyperText Markup Language*. Retrieved from https://developer.mozilla.org/en-US/docs/Web/HTML
-
+New Leaders Foundation. (2025). Home. Retrieved from 
+http://www.newleaders.co.za/ 
+New Leaders Foundation. (2025). About Us. Retrieved from http://www.newleaders.co.za/about-us/ 
+New Leaders Foundation. (2025). Data Driven Districts. Retrieved from https://www.newleaders.co.za/data-driven-districts/ 
+New Leaders Foundation. (2025). Shaping New Leaders. Retrieved from https://www.newleaders.co.za/shaping-new-leaders/ 
+New Leaders Foundation. (2025). Work With Us. Retrieved from http://www.newleaders.co.za/work-with-us/ 
+New Leaders Foundation. (2023). PAIA Manual. Retrieved from https://www.newleaders.co.za/wp-content/uploads/2023/01/PAIA-Manual-_-Final.pdf
+Trialogue Knowledge Hub. (2024). New Leaders Foundation — NPO Directory. Retrieved from https://trialogueknowledgehub.co.za/npo-directory-listings/ 
+Afrihost. (2026). Web Hosting Plans and Pricing. Retrieved from https://www.afrihost.com/hosting/web-hosting/ 
+domains.co.za. (2026). Domain Registration Pricing. Retrieved from https://www.domains.co.za 
+Google Fonts. (2026). Montserrat and Open Sans. Retrieved from
+ https://fonts.google.com
