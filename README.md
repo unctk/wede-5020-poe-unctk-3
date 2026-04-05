@@ -8,9 +8,13 @@
 ## Project Overview
 
 **Name:** New Leaders Foundation (NLF)
+
 **Website:** www.newleaders.co.za
+
 **Address:** 18 Glenhove Road, Melrose Estate, Johannesburg, 2196
+
 **Mission:** To develop empowered leaders and embed data-driven decision-making in South African public education.
+
 **Vision:** A thriving education ecosystem where every learner's potential is fully realised.
 
 Founded in 2009 by Giles Gillett, NLF is an independent South African NPO committed to transforming education through data analytics and leadership development. Its flagship Data Driven Districts (DDD) Programme, run in partnership with the Department of Basic Education (DBE), reaches over 11 million learners across 24 000 schools in 40 districts nationwide. NLF's target audience includes education officials, CSI funders, NGO partners, and graduates seeking careers in education.
