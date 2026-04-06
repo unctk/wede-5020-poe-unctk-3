@@ -31,7 +31,21 @@ KPIs: Minimum 20 enquiry form submissions per month; homepage bounce rate below 
 
 ## Timeline and Milestones
 
-Pull this from your project proposal.
+ Started 23 March, Part 1 due 20 April, Part 2 due 29 May:
+
+**Part 1 Timeline (23 March – 20 April):**
+- Week 1 (23–29 Mar): Finalise proposal, obtain lecturer approval, set up GitHub repository and file structure
+- Week 2 (30 Mar – 5 Apr): Content research and sourcing — gather text from newleaders.co.za, source images, create wireframes in draw.io
+- Week 3 (6–12 Apr): Build all 5 HTML pages with semantic structure, working navigation, and HTML comments
+- Week 4 (13–20 Apr): Review, test navigation across all pages, fix any errors, push to GitHub, submit Part 1
+
+**Part 2 Timeline (21 April – 29 May):**
+- Week 5 (21–27 Apr): Apply CSS layout — Flexbox and Grid structure, header, footer, section spacing
+- Week 6 (28 Apr – 4 May): Typography, colour scheme, buttons, cards, and form styling
+- Week 7 (5–11 May): Replace image placeholders with real sourced images; add Google Maps iframes to contact page
+- Week 8 (12–18 May): Responsive design — media queries for mobile and tablet screens
+- Week 9 (19–25 May): Cross-browser testing (Chrome, Firefox, Edge), fix any styling bugs
+- Week 10 (26–29 May): Final review, push to GitHub, submit Part 2
 
 ## Sitemap
 
