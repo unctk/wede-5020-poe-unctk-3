@@ -49,7 +49,7 @@ KPIs: Minimum 20 enquiry form submissions per month; homepage bounce rate below 
 
 ## Sitemap
 
-![Website Sitemap](img/mysitemap.png) <br> (The one here is only an example, include your own site map)
+![Website Sitemap](img/sitemap.png) <br> (The one here is only an example, include your own site map)
  
 ## References
 
