@@ -90,6 +90,25 @@
                     <label for="phone">Phone Number</label>
                     <input type="tel" id="phone" name="phone" placeholder="e.g. +27 82 123 4567"/>
 
+           <!-- Organisation (optional) -->
+                    <label for="organisation">Organisation</label>
+                    <input type="text" id="organisation" name="organisation" placeholder="e.g. TTM Foundation"/>
+
+           <!-- Enquiry dropdown -->
+                    <label for="enquiry-type">Enquiry Type <span class="required">*</span></label>
+                    <select id="enquiry-type" name="enquiry-type" required>
+                        <option value="">Select an option</option>
+                        <option value="volunteer">Volunteering</option>
+                        <option value="sponsor">Sponsorship/CSI</option>
+                        <option value="NGO partner">NGO Partnership</option>
+                        <option value="media">Media Enquiry</option>
+                        <option value="general">General Enquiry</option>
+                    </select>
+
+
+
+
+
                 <button type="submit">Submit Enquiry</button>
             </form>
 
