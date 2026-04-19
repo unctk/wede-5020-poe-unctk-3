@@ -35,7 +35,7 @@ KPIs: Minimum 20 enquiry form submissions per month; homepage bounce rate below 
 
 **Part 1 Timeline (23 March – 20 April):**
 - Week 1 (23–29 Mar): Finalise proposal, obtain lecturer approval, set up GitHub repository and file structure
-- Week 2 (30 Mar – 5 Apr): Content research and sourcing — gather text from newleaders.co.za, source images, create wireframes in draw.io
+- Week 2 (30 Mar – 5 Apr): Content research and sourcing — gather text from newleaders.co.za, source images, create wireframes in figma.
 - Week 3 (6–12 Apr): Build all 5 HTML pages with semantic structure, working navigation, and HTML comments
 - Week 4 (13–20 Apr): Review, test navigation across all pages, fix any errors, push to GitHub, submit Part 1
 
