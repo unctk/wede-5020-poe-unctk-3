@@ -49,7 +49,7 @@ KPIs: Minimum 20 enquiry form submissions per month; homepage bounce rate below 
 
 ## Sitemap
 
-![Website Sitemap](img/sitemap.png) <br> 
+![Website Sitemap](img/sitemap.drawio.png) <br> 
  
 ## References
 
