@@ -102,7 +102,7 @@ header {
     color: var(--white-color);
 }
 
-.nav-links a:active { background-color: rgba(201, 146, 44, 0.2); }
+.nav-links a:active { background-color: rgba(201, 146, 44, 0.25); }
 
 .nav-links a.active {
     background-color: var(--gold-color);
