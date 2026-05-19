@@ -30,3 +30,23 @@ body {
     background-color: var(--white-color);
     line-height: 1.75;
 }
+
+ul, ol { list-style: none; }
+img { max-width: 100%; height: auto; display: block; }
+a { text-decoration: none; color: inherit; }
+p { margin-bottom: 1rem; }
+p:last-child { margin-bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    color: var(--navy-color);
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+
+/*Container*/
+.container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
