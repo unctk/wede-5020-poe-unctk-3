@@ -161,3 +161,16 @@ header {
 
 .hero-btns { display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; }
 
+/* Page banner*/
+
+.page-banner {
+    background: linear-gradient(135deg, var(--navy-color) 0%, #1a3460 100%) ;
+    padding: 3rem 1.5rem;
+    text-align: center;
+    color: var(--white-color);
+    border-bottom: 2px solid var(--gold-color);
+}
+
+.page-banner h1 { font-size: 2rem; margin-bottom: 0.75rem; color: var(--white-color); }
+.page-banner p { max-width: 540px; margin: 0 auto; color: rgba(255, 255, 255, 0.9); }
+
