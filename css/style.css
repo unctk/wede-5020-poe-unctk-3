@@ -138,3 +138,26 @@ header {
 .btn-outline { background-color: transparent; color: var(--navy-color); border-color: var(--navy-color); }
 .btn-outline:hover { background-color: var(--navy-color); color: var(--white-color); }
 
+/*Hero Section*/
+.hero {
+    background: linear-gradient(135deg, var(--navy-color) 0%, #1a3460 100%);
+    padding: 6rem 1.5rem 5rem;
+    text-align: center;
+    color: var(--white-color); 
+}
+
+.hero-content { max-width: 700px; margin: 0 auto; }
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--white-color);
+}
+.hero p {
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.hero-btns { display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; }
+
