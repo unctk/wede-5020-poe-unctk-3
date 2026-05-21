@@ -84,9 +84,9 @@ header {
 
 .logo-name { color: var(--white-color); font-size: 1.25rem; font-weight: 600; }
 
-.nav-links { display: flex; gap: 1.5rem; }
+.nav-list { display: flex; gap: 0.25rem; }
 
-.nav-links a {
+.nav-list a {
     color: rgba(255, 255, 255, 0.8);
     font-weight: 500;
     font-size: 1rem;
@@ -97,14 +97,14 @@ header {
     transition: background-color 0.3s color 0.3s;
 }
 
-.nav-links a:hover {
+.nav-list a:hover {
     background-color: rgba(255, 255, 255, 0.1);
     color: var(--white-color);
 }
 
-.nav-links a:active { background-color: rgba(201, 146, 44, 0.25); }
+.nav-list a:active { background-color: rgba(201, 146, 44, 0.25); }
 
-.nav-links a.active {
+.nav-list a.active {
     background-color: var(--gold-color);
     color: var(--navy-color);
     font-weight: 600;
