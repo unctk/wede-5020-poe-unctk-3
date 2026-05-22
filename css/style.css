@@ -339,3 +339,86 @@ header {
 }
 .impact-card:hover { transform: translateY(-3px); }
 .impact-card h3 { font-size: 1.1rem; color: var(--navy-color); margin-bottom: 0.5rem; }
+
+/*Enquiry options*/
+.options-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 1.5rem; margin-top: 1.5rem; }
+
+.option-card {
+    background-color: var(--cream-color);
+    border-top: 3px solid var(--gold-color);
+    border-radius: var(--radius);
+    padding: 2rem 1.75rem;
+    transition: transform 0.2s;
+}
+
+.option-card:hover { transform: translateY(-3px); }
+.option-card h3 { font-size: 1.1rem; color: var(--navy-color); margin-bottom: 0.75rem; }
+
+/*Forms*/
+.form-container { max-width: 680px; }
+.enquiry-form { margin-top: 1.5rem; }
+.form-group { margin-bottom: 1.5rem; }
+
+.form-group label {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--navy-color);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1.5px solid var(--border-color);
+    font-size: 0.9375rem;
+    font-family: var(--font-body);
+    border: 1px solid var(--border-color);
+    color: var(--text);
+    border-radius: var(--radius);
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-group input:hover,
+.form-group select:hover,
+.form-group textarea:hover { border-color: #bbb6aa; }
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: var(--gold-color);
+    box-shadow: 0 0 0 3px rgba(201, 146, 44, 0.25);
+    outline: none;
+ }
+
+ .form-group input:active,
+ .form-group select:active,
+ .form-group textarea:active { box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
+
+ .required { color: #c0392b; }
+ .form-note { font-size: 0.75rem; color: var(--muted); margin-top: -1rem; }
+
+ /*Office locations*/
+.office-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 1.75rem; margin-top: 1.75rem; }
+
+.office-card {
+    background-color: var(--cream-color);
+    border-left: 3px solid var(--gold-color);
+    border-radius: var(--radius);
+    padding: 2rem 1.75rem;
+    transition: box-shadow 0.2s;
+}
+
+.office-card:hover { box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); }
+.office-card h3 { font-size: 1.1rem; color: var(--navy-color); margin-bottom: 0.5rem; font-weight: 700; }
+ 
+address { font-style: normal; line-height: 1.8; font-size: 0.9375rem; margin-bottom: 1rem; }
+.contact-details { list-style: none; }
+.contact-details li { margin-bottom: 0.5rem; font-size: 0.9375rem; }
+.contact-details a { color: var(--navy-color); text-decoration: underline; transition: color 0.2s; }
+.contact-details a:hover { color: var(--gold-color); }
+
