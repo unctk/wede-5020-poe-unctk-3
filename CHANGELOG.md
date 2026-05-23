@@ -6,7 +6,7 @@ This project follows Semantic Versioning.
 
 ## [1.0.0] 
 ### Added
-- <header> and <div class="header-inner"> is what was added.
+- <header> and <div class="header-inner"> is what was added. Added <div> tages to pages where needed.
 
 ### Changed
 - What was changed is the header tag (<header class="header-inner">). I changed the html page of index by removing the figure tags as they were not necessary to the page.
