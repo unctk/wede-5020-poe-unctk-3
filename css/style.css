@@ -257,7 +257,7 @@ header {
 
 .award-cards { display: flex; gap: 1.5rem; flex-wrap: wrap; justify-content: center; }
 
-.award-cards {
+.award-card {
     background-color: var(--white-color);
     border-left: 4px solid var(--gold-color);
     border-radius: var(--radius);
@@ -398,7 +398,7 @@ header {
  .form-group textarea:active { box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
 
  .required { color: #c0392b; }
- .form-note { font-size: 0.75rem; color: var(--muted); margin-top: -1rem; }
+ .form-note { font-size: 0.75rem; color: var(--muted); margin-top: 0.4rem; }
 
  /*Office locations*/
 .office-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 1.75rem; margin-top: 1.75rem; }
@@ -506,7 +506,7 @@ img { max-width: 100%; width: 100%; height: auto; }
 @media (max-width: 520px) {
 
  /* Layout */
-    .header-inner { flex-direction: column; align-items: flex-start; gap: 0.75rem; }
+    .header-inner { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
     .nav-list { width: 100%; flex-wrap: wrap; padding-bottom: 0.5rem; }
     .stats-grid, .values-grid, .team-grid, .mission-grid,
     .impact-grid, .options-grid, .office-grid, .maps-grid { grid-template-columns: 1fr; }
