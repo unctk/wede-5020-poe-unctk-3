@@ -12,7 +12,7 @@ This project follows Semantic Versioning.
 - I changed the html page of index by removing the figure tags as they were not necessary to the page.
 
 ### Fixed
-- xyz
+- This made sure that they was no double wording on the pages making it look unprofessional. 
 
 ## Semantic Versioning
 
