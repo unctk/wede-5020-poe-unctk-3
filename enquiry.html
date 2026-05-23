@@ -12,6 +12,7 @@
 <body>
     <!--Header is identical on all pages. -->
     <header>
+      <div class="header-inner">
         <a href="index.html" class="logo">
             <span class="logo-badge">NLF</span>
             <span class="logo-name">New Leaders Foundation</span>
@@ -25,6 +26,7 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
+        </div>
     </header>
 
     <main>
@@ -37,6 +39,8 @@
 
 
         <section class="content-section">
+          <div class="contaniner">
+                
              <h2>How You Can Get Involved</h2>
 
              <p>NLF consistently hires graduates to work as New Leaders
@@ -46,16 +50,16 @@
                 about education and data, we want to hear from you.
             </p>
 
-            <h3>Corporate Sponsorship & Corporate Social Investment (CSI)</h3>
+            <h3>Corporate Sponsorship &amp; Corporate Social Investment (CSI)</h3>
               <p>NLF partners with leading corporates and funders including 
                 FirstRand Empowerment Foundation, Old Mutual, and the 
-                Michael & Susan Dell Foundation. If your organisation 
+                Michael &amp; Susan Dell Foundation. If your organisation 
                 invests in education-related CSI, our data tools can help 
                 you track progress and demonstrate impact.
                 </p>
 
 
-            <h3>NGO & Government Partnerships</h3>
+            <h3>NGO &amp; Government Partnerships</h3>
 
               <p>
                 NLF partners with NGOs, government departments, and
@@ -63,37 +67,45 @@
                 data, or community development, explore how a partnership
                 with NLF could amplify your impact and ours.
               </p>
+             </div>
            </section>
 
 
         <section class="content-section bg-light">
-
+            <div class="container">
                 <h2>Submit an Enquiry</h2>
                   <p>
                     Complete the form below and a member of the NLF team will 
                     respond within 3 to 5 business days.
                   </p>
-
+              <div class="form-contaniner">
         <form action="#" method="post" class="enquiry-form">
 
             <!-- Full name -->
+              <div class="form-group">
                     <label for="name">Full Name *</label>
                     <input type="text" id="name" name="name" placeholder="e.g. Thakgalo Maleka" required/>
-
+              </div>
 
              <!-- Email address --> 
+               <div class="form-group">
                     <label for="email">Email Address *</label>
                     <input type="email" id="email" name="email" placeholder="e.g. thakgalo.maleka@example.com" required/>
+               </div>
 
             <!-- Phone Number -->
+               <div class="form-group">
                     <label for="phone">Phone Number</label>
                     <input type="tel" id="phone" name="phone" placeholder="e.g. +27 82 123 4567"/>
-
+                </div>
            <!-- Organisation -->
+                <div class="form-group">
                     <label for="organisation">Organisation</label>
                     <input type="text" id="organisation" name="organisation" placeholder="e.g. TTM Foundation"/>
+                </div>
 
            <!-- Enquiry dropdown -->
+                <div class="form-group">
                     <label for="enquiry-type">Enquiry Type </label>
                     <select id="enquiry-type" name="enquiry-type" required>
                         <option value="">Select an option</option>
@@ -103,26 +115,31 @@
                         <option value="media">Media Enquiry</option>
                         <option value="general">General Enquiry</option>
                     </select>
-
+                </div>
 
 
                     <!-- Message -->
+                     <div class="form-group">
                     <label for="message">Message </label>
                     <!-- <textarea> allows multiple lines of text -->
                     <textarea id="message" name="message" rows="6" placeholder="Tell us about yourself and how would like to collaborate with NLF..." required></textarea>
+                     </div>
 
                <!-- Submit button -->
                  <button type="submit" class="btn btn-primary">Submit Enquiry</button>
           
-               <p class="form-note"></p> Indicates a required field.</p>
+               <p class="form-note">* Indicates a required field.</p>
           
           
            </form>
+           </div>
+           </div>
         </section>
     </main>
 
     <!-- Footer content -->
     <footer>
+      <div class="footer-inner">
         <p>&copy; 2026 New Leaders Foundation. All rights reserved.</p>
         <nav aria-label="Footer navigation">
             <ul class="footer-nav">
@@ -133,6 +150,7 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
+        </div>
     </footer>
     <script src="js/script.js"></script>
 </body>
