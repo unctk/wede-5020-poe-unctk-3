@@ -17,7 +17,6 @@ This project follows Semantic Versioning.
 ## Semantic Versioning
 
 Format: MAJOR.MINOR.PATCH  
-Example: 2.1.3
 
 - MAJOR → Breaking changes (1.0.0 → 2.0.0)  
 - MINOR → New features (1.0.0 → 1.1.0)  
