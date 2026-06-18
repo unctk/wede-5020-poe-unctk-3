@@ -8,7 +8,7 @@ This project follows Semantic Versioning.
 ## Part 1 — Building the Structure
 HTML pages created: index.html, about.html, services.html, enquiry.html, contact.html
 
-Built valid HTML5 structures with semantic elements (<header>, <nav>, <main>, <section>, <footer>).
+Built valid HTML5 structures with semantic elements (header, nav, main, section, footer).
 
 Created a sticky navigation header and consistent footer.
 
