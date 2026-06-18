@@ -249,5 +249,15 @@
     </footer>
 
     <script src="js/script.js"></script>
+
+    <div id="lightbox" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); z-index: 1000; align-items: center; justify-content: center; flex-direction: column;">
+        <span id="lightbox-close" style="color: white; font-size: 40px; position: absolute; top: 20px; right: 40px; cursor: pointer;">&times;</span>
+        <img id="lightbox-img" src="" alt="" style="max-width: 90%; max-height: 80%; border: 4px solid white;">
+    </div>
+     
+    <style>
+        /* Add this quick style to make the lightbox display correctly when active */
+        #lightbox.active { display: flex !important; }
+    </style>
 </body>
 </html>

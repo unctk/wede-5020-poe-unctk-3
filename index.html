@@ -26,7 +26,7 @@
         </a>
      
         <!-- Navigation menu with links to all pages -->
-        <nav aria-label="Main navigation">
+        <nav aria-label="Main-navigation">
           <ul class="nav-list">
             <li><a href="index.html" class="active">Home</a></li>
             <li><a href="about.html">About Us</a></li>
@@ -68,22 +68,22 @@
                 <div class="stats-grid">
         <!-- 11M figure from DDD case study on newleaders.co.za -->
          <div class="stat-card">
-         <span class="stat-number">11M+</span>
+         <span class="stat-number" data-target="11" data-suffix="M+">0</span>
          <span class="stat-label">Learners on DDD Dashboard</span>
         </div>
          <!-- 24 000 schools from Trialogue / NLF directory listing -->
                <div class="stat-card">
-              <span class="stat-number">24 000</span>
+              <span class="stat-number" data-target="24000">0</span>
               <span class="stat-label">Public Schools</span>
             </div>
             <!-- 40 districts stated on newleaders.co.za homepage -->
               <div class="stat-card">
-              <span class="stat-number">40</span>
+              <span class="stat-number" data-target="40">0</span>
               <span class="stat-label">Districts Reached</span>
               </div>
             <!-- Founded 2009, confirmed in PAIA manual and site -->
               <div class="stat-card">
-              <span class="stat-number">2009</span>
+              <span class="stat-number" data-target="2009">0</span>
               <span class="stat-label">Year Founded</span>
               </div>
             </div>
@@ -134,14 +134,14 @@
               <div class="award-cards">
                 <div class="award-card">
               <h3>PMI Non-Profit Project of the Year</h3>
-             <small><img src="img/PrestigeAwards.jpg" alt="PMI Non-Profit Project of the Year Award" width="400" height="300"></small>
+             <small><img src="img/PrestigeAwards.jpg" alt="PMI Non-Profit Project of the Year Award" width="400" height="300" data-lightbox="true"></small>
               <p>Project Management Institute &mdash; 2025</p>
               </div>
                <div class="award-card">
               <h3>Excellence in Building Purpose-Driven Impact</h3>
                <p>Trialogue Awards &mdash; 2025</p>
               <p>Investors in People Awards &mdash; 2025</p>
-                 <small><img src="img/award won.png" alt="Investors in People Awards" width="300" height="300"></small>
+                 <small><img src="img/award won.png" alt="Investors in People Awards" width="300" height="300" data-lightbox="true"></small>
                 </div>
               </div>
         </div>
@@ -168,5 +168,16 @@
 
     <!-- Scripts -->
     <script src="js/script.js"></script>
+
+    <div id="lightbox" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); z-index: 1000; align-items: center; justify-content: center; flex-direction: column;">
+    <span id="lightbox-close" style="color: white; font-size: 40px; position: absolute; top: 20px; right: 40px; cursor: pointer;">&times;</span>
+    <img id="lightbox-img" src="" alt="" style="max-width: 90%; max-height: 80%; border: 4px solid white;">
+</div>
+
+<style>
+    /* Add this quick style to make the lightbox display correctly when active */
+    #lightbox.active { display: flex !important; }
+</style>
+
 </body>
 </html>
