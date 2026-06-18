@@ -536,3 +536,217 @@ img { max-width: 100%; width: 100%; height: auto; }
     .form-group select,
     .form-group textarea { font-size: 1rem; padding: 0.7rem 0.75rem; }
 }
+/*Part 3 - JavaScript & Interactive Additions*/
+
+/* About content section (about.html top banner) */
+.about-content {
+    background: linear-gradient(135deg, var(--navy-color) 0%, #1a3460 100%);
+    padding: 3rem 1.5rem;
+    text-align: center;
+    border-bottom: 3px solid var(--gold-color);
+}
+.about-content h1 { font-size: 2.25rem; color: var(--white-color); }
+.about-content p  { color: rgba(255,255,255,0.88); max-width: 640px; margin: 0.5rem auto 0; }
+
+/* Options grid (referenced in media queries but was missing) */
+.options-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 1.5rem; margin-top: 1.5rem; }
+.option-card  { background-color: var(--cream-color); border-top: 3px solid var(--gold-color); border-radius: var(--radius); padding: 2rem 1.75rem; transition: transform 0.2s; }
+.option-card:hover { transform: translateY(-3px); }
+.option-card h3 { font-size: 1.1rem; color: var(--navy-color); margin-bottom: 0.75rem; }
+
+/* Scroll fade-in */
+.fade-in { opacity: 0; transform: translateY(22px); transition: opacity 0.55s ease, transform 0.55s ease; }
+.fade-in.visible { opacity: 1; transform: translateY(0); }
+
+/* Mobile Navigation Trigger hidden on desktops */
+#hamburger {
+    display: none;
+    background: none;
+    border: none;
+    color: var(--navy-color);
+    font-size: 1.75rem;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+/* Back to Top Button Fixed Placement Styles */
+#back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background: var(--gold-color);
+    color: var(--white-color);
+    border: none;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    font-size: 1.25rem;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    z-index: 99;
+}
+#back-to-top.visible {
+    opacity: 1;
+    visibility: visible;
+}
+#back-to-top:hover {
+    background: var(--navy-color);
+    transform: translateY(-3px);
+}
+
+.lightbox-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    z-index: 2000;
+    align-items: center;
+    justify-content: center;
+}
+.lightbox-overlay.active {
+    display: flex;
+}
+#lightbox-img {
+    max-width: 85%;
+    max-height: 80%;
+    border: 5px solid var(--white-color);
+    border-radius: var(--radius);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+#lightbox-close {
+    position: absolute;
+    top: 2rem;
+    right: 2.5rem;
+    color: var(--white-color);
+    font-size: 3rem;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+#lightbox-close:hover {
+    color: var(--gold-color);
+}
+
+.accordion {
+    margin-top: 1.5rem;
+    border-top: 1px solid var(--border-color);
+}
+.accordion-item {
+    border-bottom: 1px solid var(--border-color);
+}
+.accordion-header {
+    width: 100%;
+    background: none;
+    border: none;
+    text-align: left;
+    padding: 1.25rem 1rem;
+    font-family: var(--font-heading);
+    font-size: 1.15rem;
+    color: var(--navy-color);
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.2s;
+}
+.accordion-header:hover {
+    background: var(--cream-color);
+}
+.accordion-header::after {
+    content: '➔';
+    font-size: 0.9rem;
+    color: var(--gold-color);
+    transition: transform 0.3s;
+}
+.accordion-item.open .accordion-header::after {
+    transform: rotate(90deg);
+}
+.accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background: var(--white-color);
+}
+.accordion-content {
+    padding: 0 1rem 1.25rem 1rem;
+    font-family: var(--font-body);
+    color: var(--text);
+}
+
+/* Search bar (services page) */
+.search-bar { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 2rem; }
+.search-bar label { font-size: 0.875rem; font-weight: 600; color: var(--navy-color); white-space: nowrap; }
+.search-bar input {
+    flex: 1;
+    padding: 0.75rem 1rem;
+    border: 1.5px solid var(--border-color);
+    border-radius: var(--radius);
+    font-size: 0.9375rem;
+    font-family: var(--font-body);
+    color: var(--text);
+    background-color: var(--white-color);
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+.search-bar input:focus { outline: none; border-color: var(--gold-color); box-shadow: 0 0 0 3px rgba(201, 146, 44, 0.2); }
+.no-results { display: none; color: var(--muted); font-style: italic; margin-top: 1rem; }
+
+/* Leaflet map container */
+#nlf-map { height: 420px; border-radius: var(--radius); box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12); margin-top: 1.75rem; }
+
+/* Input Error Messaging Layout Items Hooks */
+.input-error {
+    border-color: #d9534f !important;
+    background-color: #fff8f8;
+}
+.error-msg {
+    color: #d9534f;
+    font-size: 0.85rem;
+    display: block;
+    margin-top: 4px;
+    font-weight: 500;
+}
+.form-success {
+    background-color: #dff0d8;
+    border: 1px solid #d6e9c6;
+    color: #3c763d;
+    padding: 15px;
+    border-radius: var(--radius);
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+/* Tablet Responsive Hamburg Overlay Shifts Breakpoint adjustments */
+@media (max-width: 900px) {
+    #hamburger { display: block; }
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: var(--white-color);
+        border-bottom: 3px solid var(--gold-color);
+        padding: 1rem 0;
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
+        z-index: 999;
+    }
+    .nav-list.nav-open { display: flex; }
+    .nav-list li { margin: 0; text-align: center; width: 100%; }
+    .nav-list a { display: block; padding: 0.75rem 0; }
+    .header-inner { position: relative; }
+}
+
+@media (max-width: 520px) {
+    #back-to-top { bottom: 1.25rem; right: 1.25rem; width: 2.5rem; height: 2.5rem; font-size: 1rem; }
+    #nlf-map { height: 280px; }
+    .search-bar { flex-direction: column; align-items: stretch; }
+    .search-bar label { white-space: normal; }
+}
