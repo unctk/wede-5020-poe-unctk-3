@@ -287,8 +287,8 @@ function initMap() {
     }).addTo(map);
 
     const pins = [
-        { lat: -26.1343, lng: 28.0578, name: 'NLF Head Office',    info: '18 Glenhove Road, Melrose Estate, Johannesburg' },
-        { lat: -26.1932, lng: 28.0473, name: 'Postal Address',      info: 'P.O. Box 31533, Braamfontein, Johannesburg' },
+        { lat: -26.1343, lng: 28.0578, name: 'NLF Head Office', info: '18 Glenhove Road, Melrose Estate, Johannesburg' },
+        { lat: -26.1932, lng: 28.0473, name: 'Postal Address', info: 'P.O. Box 31533, Braamfontein, Johannesburg' },
         { lat: -25.7479, lng: 28.1878, name: 'Pretoria DBE Office', info: '222 Struben Street, Pretoria' }
     ];
 
