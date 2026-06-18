@@ -5,14 +5,33 @@ All notable changes to this project will be documented in this file.
 This project follows Semantic Versioning.
 
 ## [1.0.0] 
-### Added
-- header and div class="header-inner" is what was added to all html pages. 
+## Part 1 — Building the Structure
+HTML pages created: index.html, about.html, services.html, enquiry.html, contact.html
 
-### Changed
-- What was changed is the header tag (<header class="header-inner">). I changed the html page of index by removing the figure tags as they were not necessary to the page.
+Built valid HTML5 structures with semantic elements (<header>, <nav>, <main>, <section>, <footer>).
 
-### Fixed
-- This made sure that they was no double wording on the pages making it look unprofessional. 
+Created a sticky navigation header and consistent footer.
+
+Drafted initial structural frameworks for the Enquiry and Contact forms.
+
+## References
+New Leaders Foundation. (2024). About Us. Retrieved from https://www.newleaders.co.za/about
+
+New Leaders Foundation. (2024). Data Driven Districts. Retrieved from https://www.newleaders.co.za/ddd
+
+Trialogue. (2025). NLF NPO Directory Listing. Retrieved from https://trialogue.co.za
+
+OpenStreetMap Contributors. (2024). OpenStreetMap. Retrieved from https://www.openstreetmap.org
+
+Leaflet. (2024). Leaflet.js Documentation v1.9.4. Retrieved from https://leafletjs.com
+
+Google Fonts. (2024). Playfair Display and DM Sans. Retrieved from https://fonts.google.com
+
+Mozilla Developer Network. (2024). CSS Grid Layout. Retrieved from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
+
+Mozilla Developer Network. (2024). Fetch API. Retrieved from https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+
+W3Schools. (2024). HTML Forms. Retrieved from https://www.w3schools.com/html/html_forms.asp
 
 ## Semantic Versioning
 
