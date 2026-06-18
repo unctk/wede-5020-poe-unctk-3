@@ -6,7 +6,7 @@
     <meta name="description" content="Explore New Leaders Foundation's programmes - Data Driven Districts (DDD), Leadership Development, and Advisory Services.">
     <meta name="keywords" content="Data Driven Districts, DDD, SA-SAMS, DDD Dashboard, NLF programmes, Leadership development, advisory  sevices">
     <meta name="author" content="New Leaders Foundation">
-   <title>Programmmes - New Leaders Foundation</title>
+   <title>Programmes - New Leaders Foundation</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -17,7 +17,7 @@
             <span class="logo-badge">NLF</span>
             <span class="logo-name">New Leaders Foundation</span>
         </a>
-        <nav aria-label="Main navigation">
+        <nav aria-label="Main-navigation">
             <ul class="nav-list">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
@@ -127,6 +127,12 @@
             <p>Over the course of more than a decade of implementation, the DDD programme has demonstrated
                measurable improvements in the schools and districts it serves:
             </p>
+            
+            <div style="margin-bottom: 2rem;">
+                 <label for="services-search" style="display: none;">Search Impact</label>
+                 <input type="text" id="services-search" placeholder="Search our impact areas..." style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+                 <p id="no-results" style="display: none; color: red; margin-top: 10px;">No matching results found.</p>
+                </div>
             <div class="impact-grid">
                 <div class="impact-card">
               <h3>Improved Attendance </h3>
@@ -202,8 +208,27 @@
                   partnered with <strong>Data Innovators Group</strong> to scale its
                   impact across development sectors globally.</p>
                   </div>
-
-        </section>
+            </section>
+            
+            <section class="content-section">
+                <div class="container">
+                    <h2>Frequently Asked Questions</h2>
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <button class="accordion-header" style="width: 100%; text-align: left; padding: 15px; background: #eee; border: none; cursor: pointer; font-weight: bold;">How is data secured?</button>
+                            <div class="accordion-body" style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out;">
+                                <p style="padding: 15px;">All data is annonymised and secured in compliance with the POPI Act.</p> 
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="accordion-header" style="width: 100%; text-align: left; padding: 15px; background: #eee; border: none; cursor: pointer; font-weight: bold; margin-top: 10px;">Who can access the Dashboard?</button>
+                            <div class="accordion-body" style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out;">
+                                <p style="padding: 15px;">Access is strictly granted to verified Department of Education officials and school principals.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
     </main>
 
