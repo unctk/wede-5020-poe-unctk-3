@@ -1,0 +1,11 @@
+# robots.txt — New Leaders Foundation
+
+User-agent: *
+Allow: /
+
+# Disallow any future admin or private directories
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap location
+Sitemap: https://www.newleaders.co.za/sitemap.xml
