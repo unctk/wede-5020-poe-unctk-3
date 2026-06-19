@@ -25,6 +25,51 @@ CSS(style.css) created and linked to all five pages
 - Responsiveness: Added two media query breakpoints( tablet at 900px and phone at 520px) to ensure fluid grid collapse and responsive image scaling.
 
 ## Part 3 - Enhancing Fuctionality and SEO
+JavaScript Enhancements (script.js):
+
+- DOM Manipulation: Added mobile hamburger navigation toggle with aria-expanded state handling.
+
+- Animations: Added a back-to-top button with scroll-triggered visibility and scroll fade-in animations using IntersectionObserver.
+
+- Dynamic Content: Added a stats counter animation on the index page (IntersectionObserver + setInterval).
+
+- Interactive Elements: - Implemented a gallery lightbox for award and DDD Dashboard images (click to enlarge, Escape to close).
+
+  -Added an interactive FAQ Accordion on the services page (only one tab stays open at a time).
+
+- Search Functionality: Added real-time search/filter DOM manipulation on the services page impact cards with a dynamic "no-results" message.
+
+- Form Validation & AJAX: - Added strict JS validation for the enquiry form: name, email format, phone number format, enquiry type, and message length.
+
+  -Implemented AJAX-style async enquiry form submission using the fetch() API with a simulated loading state (Sending...).
+
+  -Added a dynamic, personalised response message displayed after successful AJAX enquiry submission.
+
+  -Added JS validation for the contact form, compiling all fields into an email body sent via mailto: to the organisation.
+
+- Interactive Map: Integrated Leaflet.js interactive map on the contact page, rendering three accurate, pinned office locations with popup information.
+
+HTML Updates:
+
+ -Hooks & IDs: Added data-target and data-suffix attributes to index stats for the counter animation. Bypassed the "Year Founded" animation to keep 2009 static for better UX.
+
+ -Forms: Added id="enquiry-form", id="contact-form", and novalidate attributes to ensure HTML5 validation is bypassed in favor of custom JavaScript error handling.
+
+ -Structure: Added the global lightbox overlay container, the impact search bar (services.html), and the message type dropdown (contact.html) to ensure all JS queries map perfectly to the DOM.
+
+Search Engine Optimization (SEO):
+
+- Crawling: Created robots.txt to instruct search engine crawlers.
+
+- Structure: Created sitemap.xml listing all five pages with priority and change frequency.
+
+- On-Page SEO: - Added unique <title> tags to all pages.
+
+  -Added unique <meta name="description"> tags summarizing each page.
+
+  -Added <meta name="keywords"> to all pages relevant to NLF and South African education.
+
+  -Verified all <img src="..."> tags include descriptive alt text for screen readers and SEO indexing.
 
 ## References
 New Leaders Foundation. (2024). About Us. Retrieved from https://www.newleaders.co.za/about
