@@ -51,11 +51,11 @@ JavaScript Enhancements (script.js):
 
 HTML Updates:
 
- -Hooks & IDs: Added data-target and data-suffix attributes to index stats for the counter animation. Bypassed the "Year Founded" animation to keep 2009 static for better UX.
+ - Hooks & IDs: Added data-target and data-suffix attributes to index stats for the counter animation. Bypassed the "Year Founded" animation to keep 2009 static for better UX.
 
- -Forms: Added id="enquiry-form", id="contact-form", and novalidate attributes to ensure HTML5 validation is bypassed in favor of custom JavaScript error handling.
+ - Forms: Added id="enquiry-form", id="contact-form", and novalidate attributes to ensure HTML5 validation is bypassed in favor of custom JavaScript error handling.
 
- -Structure: Added the global lightbox overlay container, the impact search bar (services.html), and the message type dropdown (contact.html) to ensure all JS queries map perfectly to the DOM.
+ - Structure: Added the global lightbox overlay container, the impact search bar (services.html), and the message type dropdown (contact.html) to ensure all JS queries map perfectly to the DOM.
 
 Search Engine Optimization (SEO):
 
