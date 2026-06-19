@@ -50,6 +50,16 @@ KPIs: Minimum 20 enquiry form submissions per month; homepage bounce rate below 
 ## Sitemap
 
 ![Website Sitemap](img/sitemap.drawio.png) <br> 
+
+## Pages
+
+| File | Purpose |
+|---|---|
+| `index.html` | Homepage — hero, impact stats, who we are, core values, awards |
+| `about.html` | About Us — history, mission, vision, values, team, partners |
+| `services.html` | Programmes — DDD overview, how it works, impact, FAQ accordion |
+| `enquiry.html` | Enquiry — get involved form with JS validation and AJAX response |
+| `contact.html` | Contact — office addresses, interactive map, contact form with email compilation |
  
 ## References
 
@@ -77,3 +87,13 @@ Google Fonts. (2026). Montserrat and Open Sans. Retrieved from
  https://fonts.google.com
 
 PMI South Africa Chapter (Pty) Ltd (2025) Prestige Awards – Project Excellence, LinkedIn. Available at: https://www.linkedin.com/posts/pmi-south-africa-chapter-pty-ltd_prestigeawards-pmisouthafrica-projectexcellence-activity-7381243892194521088-70n3 (Accessed: 17 April 2026).
+
+## NEW REFERENCES
+Mozilla Developer Network. (2024). CSS Grid Layout. Retrieved from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
+
+Mozilla Developer Network. (2024). Fetch API. Retrieved from https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+
+W3Schools. (2024). HTML Forms. Retrieved from https://www.w3schools.com/html/html_forms.asp
+
+Leaflet. (2024). Leaflet.js Documentation v1.9.4. Retrieved from https://leafletjs.com
+

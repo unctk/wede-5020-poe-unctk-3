@@ -5,14 +5,26 @@ All notable changes to this project will be documented in this file.
 This project follows Semantic Versioning.
 
 ## [1.0.0] 
-## Part 1 — Building the Structure
+## Part 1 - Building the Structure
 HTML pages created: index.html, about.html, services.html, enquiry.html, contact.html
 
-Built valid HTML5 structures with semantic elements (header, nav, main, section, footer).
+- Built valid HTML5 structures with semantic elements (header, nav, main, section, footer).
 
-Created a sticky navigation header and consistent footer.
+- Created a sticky navigation header and consistent footer.
 
-Drafted initial structural frameworks for the Enquiry and Contact forms.
+- Drafted initial structural frameworks for the Enquiry and Contact forms.
+
+## Part 2 - Designing the Visuals 
+CSS(style.css) created and linked to all five pages
+- Styling: Added CSS custom properties(variables) for colours, fonts, spacing and border radius.
+
+- Layout: Implemented CSS Grid( stats-grid, values-grid, team-grid) and Flexbox(two-col, header-inner, footer-inner).
+
+- Interactivity: Added pseudo-classes( :hover, :focus, :active) on nav links, buttons, cards, and form inputs.
+
+- Responsiveness: Added two media query breakpoints( tablet at 900px and phone at 520px) to ensure fluid grid collapse and responsive image scaling.
+
+## Part 3 - Enhancing Fuctionality and SEO
 
 ## References
 New Leaders Foundation. (2024). About Us. Retrieved from https://www.newleaders.co.za/about
