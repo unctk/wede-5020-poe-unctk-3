@@ -24,6 +24,8 @@ CSS(style.css) created and linked to all five pages
 
 - Responsiveness: Added two media query breakpoints( tablet at 900px and phone at 520px) to ensure fluid grid collapse and responsive image scaling.
 
+## Part 3 - Enhancing Fuctionality and SEO
+
 ## References
 New Leaders Foundation. (2024). About Us. Retrieved from https://www.newleaders.co.za/about
 
