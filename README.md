@@ -78,10 +78,12 @@ Google Fonts. (2026). Montserrat and Open Sans. Retrieved from
 
 PMI South Africa Chapter (Pty) Ltd (2025) Prestige Awards – Project Excellence, LinkedIn. Available at: https://www.linkedin.com/posts/pmi-south-africa-chapter-pty-ltd_prestigeawards-pmisouthafrica-projectexcellence-activity-7381243892194521088-70n3 (Accessed: 17 April 2026).
 
-NEW REFERENCES
+## NEW REFERENCES
 Mozilla Developer Network. (2024). CSS Grid Layout. Retrieved from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
 
 Mozilla Developer Network. (2024). Fetch API. Retrieved from https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
 
 W3Schools. (2024). HTML Forms. Retrieved from https://www.w3schools.com/html/html_forms.asp
+
+Leaflet. (2024). Leaflet.js Documentation v1.9.4. Retrieved from https://leafletjs.com
 
